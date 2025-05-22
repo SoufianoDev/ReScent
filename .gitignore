@@ -30,6 +30,10 @@ __tests__/
 *.tmp
 *.bak
 
-# Generated extension packages
-*.crx
-*.xpi
+
+.idea/misc.xml
+# Default ignored files
+/shelf/
+/workspace.xml
+# Environment-dependent path to Maven home directory
+/mavenHomeManager.xml
