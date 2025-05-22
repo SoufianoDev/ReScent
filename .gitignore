@@ -1,0 +1,35 @@
+# Build and output directories
+/out/
+/build/
+/target/
+
+# IDE and OS files
+.idea/
+*.iml
+*.log
+*.swp
+*.swo
+*.DS_Store
+*.class
+
+# Java specific
+*.jar
+*.war
+*.ear
+
+# VS Code settings
+.vscode/
+
+# Test directories and files
+test/
+tests/
+__tests__/
+*.spec.*
+*.test.*
+
+
+# Temporary files
+*.tmp
+*.bak
+*.key
+*.pem
