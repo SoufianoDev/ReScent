@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <title>ReScent</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sansita:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+        <header>
+    <h1>ReScent</h1>
+            <p class="developer">by Soufiano Dev</p>
+        </header>
+
+        <div class="main-control">
+            <button id="toggleBtn" class="toggle-btn">
+                <div class="svg-container">
+                    <!-- Start SVG -->
+                    <svg class="toggle-icon start-icon" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                        <g>
+                            <path class="circle-path" d="M256,512c-64,0-124.2-24.9-169.4-70.2S16.4,336.4,16.4,272.4c0-64,24.9-124.2,70.2-169.4c4.1-4.1,10.8-4.1,14.9,0c4.1,4.1,4.1,10.8,0,14.9c-41.3,41.3-64,96.2-64,154.5s22.7,113.3,64,154.5c41.3,41.3,96.2,64,154.5,64c58.4,0,113.3-22.7,154.5-64c41.3-41.3,64-96.2,64-154.5s-22.7-113.3-64-154.5c-4.1-4.1-4.1-10.8,0-14.9c4.1-4.1,10.8-4.1,14.9,0c45.3,45.3,70.2,105.4,70.2,169.4c0,64-24.9,124.2-70.2,169.4S320,512,256,512z"/>
+                            <path class="line-path" d="M256,233c-5.8,0-10.5-4.7-10.5-10.5V10.5C245.5,4.7,250.2,0,256,0c5.8,0,10.5,4.7,10.5,10.5v211.9C266.5,228.3,261.8,233,256,233z"/>
+                        </g>
+                    </svg>
+                    <!-- Stop SVG -->
+                    <svg class="toggle-icon stop-icon" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" transform="matrix(-1,1.2246467991473532e-16,-1.2246467991473532e-16,-1,0,0)">
+                        <g transform="rotate(360, 256, 256)">
+                            <path class="circle-path" d="M256,512c-64,0-124.2-24.9-169.4-70.2S16.4,336.4,16.4,272.4c0-64,24.9-124.2,70.2-169.4c4.1-4.1,10.8-4.1,14.9,0c4.1,4.1,4.1,10.8,0,14.9c-41.3,41.3-64,96.2-64,154.5s22.7,113.3,64,154.5c41.3,41.3,96.2,64,154.5,64c58.4,0,113.3-22.7,154.5-64c41.3-41.3,64-96.2,64-154.5s-22.7-113.3-64-154.5c-4.1-4.1-4.1-10.8,0-14.9c4.1-4.1,10.8-4.1,14.9,0c45.3,45.3,70.2,105.4,70.2,169.4c0,64-24.9,124.2-70.2,169.4S320,512,256,512z"/>
+                            <path class="line-path" d="M256,233c-5.8,0-10.5-4.7-10.5-10.5V10.5C245.5,4.7,250.2,0,256,0c5.8,0,10.5,4.7,10.5,10.5v211.9C266.5,228.3,261.8,233,256,233z"/>
+                        </g>
+                    </svg>
+                </div>
+            </button>
+            <span class="toggle-text">Start</span>
+            <div class="timer-display">
+                <span class="timer-value">00:00:00</span>
+            </div>
+        </div>
+
+        <div class="status-container">
+            <div class="status-indicator">
+                <span class="status-dot"></span>
+                <span class="status-text">Ready</span>
+            </div>
+            <div class="activity-status">
+                <span class="activity-text">No human activity detected</span>
+            </div>
+        </div>
+
+        <div class="controls">
+    <div class="control-group">
+                <label for="refreshInterval">Refresh Interval</label>
+                <div class="input-group">
+                    <input type="number" id="refreshInterval" min="1" value="30">
+                    <span class="unit">seconds</span>
+                </div>
+    </div>
+
+    <div class="control-group">
+                <label for="scrollSpeed">Scroll Speed</label>
+                <div class="input-group">
+                    <input type="range" id="scrollSpeed" min="1" max="10" value="5">
+                    <span class="speed-value">5</span>
+                </div>
+            </div>
+    </div>
+
+        <div class="customization-panel" id="customizationPanel">
+            <div class="panel-content">
+                <h3>Customize <span class="panel-title"></span></h3>
+                <div class="preset-buttons">
+                    <button class="preset-btn" data-value="1">Slow</button>
+                    <button class="preset-btn" data-value="5">Normal</button>
+                    <button class="preset-btn" data-value="10">Fast</button>
+                </div>
+                <button class="close-btn">×</button>
+            </div>
+        </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> 
