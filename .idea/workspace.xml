@@ -6,13 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="c0cc3fc4-330a-41b7-9725-eb7965e390f5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/releases/v1.0.0/chrome/ReScent_chrome_v1.0.0.crx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/releases/v1.0.0/edge/ReScent_edge_v1.0.0.crx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/releases/v1.0.0/firefox/ReScent_firefox_v1.0.0.xpi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/releases/v1.0.0/opera/ReScent_opera_v1.0.0.crx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soufianodev/rescent/CrxCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soufianodev/rescent/CrxCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/extension/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/extension/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/releases/v1.0.0 - Shortcut.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/releases/v1.0.0/chrome/ReScent_chrome_v1.0.0.crx" beforeDir="false" afterPath="$PROJECT_DIR$/releases/v1.0.0/chrome/ReScent_chrome_v1.0.0.crx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/releases/v1.0.0/edge/ReScent_edge_v1.0.0.crx" beforeDir="false" afterPath="$PROJECT_DIR$/releases/v1.0.0/edge/ReScent_edge_v1.0.0.crx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/releases/v1.0.0/firefox/ReScent_firefox_v1.0.0.xpi" beforeDir="false" afterPath="$PROJECT_DIR$/releases/v1.0.0/firefox/ReScent_firefox_v1.0.0.xpi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/releases/v1.0.0/opera/ReScent_opera_v1.0.0.crx" beforeDir="false" afterPath="$PROJECT_DIR$/releases/v1.0.0/opera/ReScent_opera_v1.0.0.crx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
