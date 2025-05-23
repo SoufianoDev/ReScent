@@ -1,6 +1,7 @@
 package com.soufianodev.rescent;
 
 import java.io.*;
+import java.util.Objects;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
@@ -23,11 +24,11 @@ public class CrxCreator {
 
     private void zipDirectory(File rootDir, File source, ZipOutputStream zos) throws IOException {
         if (source.isDirectory()) {
-            for (File file : source.listFiles()) {
+            for (File file : Objects.requireNonNull(source.listFiles())) {
                 zipDirectory(rootDir, file, zos);
             }
         } else {
-            String entryName = rootDir.toPath().relativize(source.toPath()).toString();
+            String entryName = rootDir.toPath().relativize(source.toPath()).toString().replace('\\', '/');
             ZipEntry entry = new ZipEntry(entryName);
             zos.putNextEntry(entry);
 
