@@ -18,9 +18,10 @@ __tests__/
 *.test.*
 *.tmp
 *.bak
-.idea/misc.xml
+.idea/
+*.xml
 /shelf/
-/workspace.xml
 /mavenHomeManager.xml
-.idea/workspace.xml
 key.pem
+
+

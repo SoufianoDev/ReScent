@@ -39,8 +39,8 @@ ReScent is a powerful browser extension that enhances your browsing by automatic
 ## Installation
 
 1. **Download from Official Stores:**
-   - [Chrome Web Store](https://chrome.google.com/webstore)
-   - [Firefox Add-ons](https://addons.mozilla.org/)
+   <!-- - [Chrome Web Store](https://chrome.google.com/webstore) -->
+   - [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/rescent_refresh_scroll/)
 2. Click **Add to Browser** to install ReScent.
 3. Pin the extension for quick access (optional).
 
